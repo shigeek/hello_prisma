@@ -27,10 +27,14 @@
     "prisma:seed": "npx prisma db seed"
   },
   "dependencies": {
+    "@nestjs/apollo": "^10.1.0",
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
+    "@nestjs/graphql": "^10.1.1",
     "@nestjs/platform-express": "^9.0.0",
     "@prisma/client": "latest",
+    "apollo-server-express": "^3.10.2",
+    "graphql": "^16.6.0",
     "nestjs-prisma": "^0.18.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
